@@ -1,253 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home / X</title>
-    <link rel="stylesheet" href="css/output.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-</head>
-<body class="bg-black text-white m-5">
-    <main class="flex space-x-10 container w-max ">
-        <section class="left mx-12  w-[74%] flex flex-col space-y-7 ">
-            <div class="logo">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class=" invert w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
-            </div>
-            <div class="elements flex flex-col text-xl">
-                <ul class="space-y-1">
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    home
-                                    </span></li>
-                                <li>Home</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4  hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    search
-                                    </span></li>
-                                <li>Explore</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    notifications
-                                    </span></li>
-                                <li>Notifications</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    mail
-                                    </span></li>
-                                <li>Messages</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    edit_square
-                                    </span></li>
-                                <li>Grok</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    list_alt
-                                    </span></li>
-                                <li>Lists</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    group
-                                    </span></li>
-                                <li>Communities</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li> <svg viewBox="0 0 24 24" aria-hidden="true" class=" invert w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg></li>
-                                <li>Premium</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    person
-                                    </span></li>
-                                <li>Profile</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <ul class="flex space-x-4 hover:bg-slate-400  hover:rounded-2xl px-3 py-2">
-                                <li><span class="material-symbols-outlined">
-                                    more_horiz
-                                    </span></li>
-                                <li>More</li>
-                            </ul>
-                        </button>
-                    </li>
-                    <li>
-                        <button class="bg-sky-500 font-bold w-72 h-12 rounded-3xl px-6">Post</button>
-                    </li>
-                    <li>
-                        <ul class="flex space-x-4 justify-around items-center my-3">
-                            <li><Button class="bg-white text-black font-extrabold px-5 py-3 rounded-full ">D</Button></li>
-                            <li><ul class="flex space-x-4  px-3 py-2 flex-col space-y-3">
-                                <li class="font-medium">Debojyoti Saha</li>
-                                <li class="font-light">@Debojyoti123</li>
-                            </ul></li>
-                            <li><span class="material-symbols-outlined">
-                                more_horiz
-                                </span></li>
-                        </ul>
-                    </li>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body class="bg-[#000000] text-white m-5">
+    <main class="flex space-x-10 w-max">
+      <section
+        class="left mx-1 md:mx-10 w-[2%] md:w-[20%] flex flex-col space-y-7"
+      >
+        <div class="logo fixed left-[30px] md:left-[70px]">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="invert w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+          >
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div class="elements flex flex-col text-xl fixed">
+          <ul class="space-y-1">
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li><span class="material-symbols-outlined"> home </span></li>
+                  <li class="hidden md:block">Home</li>
                 </ul>
-            </div>
-        </section>
-        <section class="align-middle w-full border">
-            <div class="heading">
-                <ul class="flex flex-row justify-between p-4 border-b">
-                    <li>
-                        <ul class="flex flex-row justify-between">
-                                <li>For You</li>
-                                <li>Following</li>
-                            
-                        </ul>
-                    </li>
-                    <li>abc</li>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <span class="material-symbols-outlined"> search </span>
+                  </li>
+                  <li class="hidden md:block">Explore</li>
                 </ul>
-            </div>
-        </section>
-        <section class="right m-14 flex flex-col  w-[80%] gap-5 my-2 mx-3">
-            <div class="search flex gap-3 rounded-full bg-gray-900 px-2 py-3 w-9/10">
-                <span class="material-symbols-outlined">search </span>
-                <input type="text" class="bg-gray-900 w-1/3" placeholder="Search" >
-            </div>
-            <div class="flex gap-3 flex-col premium py-4 px-4 rounded-3xl bg-gray-900">
-                <h3 class="font-extrabold text-xl">Subscribe To Premium</h3>
-                <p class="">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-                <button class="px-3 py-3  bg-blue-400 w-24 rounded-full">Subscribe</button>
-            </div>
-            <div class="whats  flex gap-3 flex-col py-4 px-4 rounded-3xl bg-gray-900">
-                <h3 class="font-extrabold text-xl">What's Happening</h3>
-                <div class="flex flex-col">
-                    <ul class="flex flex-col space-y-5">
-                        <li><ul class="flex justify-between items-center ">
-                            <li class="flex flex-col space-y-0"> 
-                                <p class="font-light text-xs"> Tending in India</p>
-                                <h2 class="font-bold">#PoonamPandey</h2>
-                                <p class="font-light text-sm">20.1k posts</p>
-                            </li>
-                            <li><span class="material-symbols-outlined">
-                                more_horiz
-                                </span></li>
-                            </ul>
-                        </li>
-                        <li><ul class="flex justify-between items-center ">
-                            <li class="flex flex-col space-y-1"> 
-                                <p class="font-light text-xs">Entertainment · Trending</p>
-                                <h2 class="font-bold">#BoycottBollywood</h2>
-                                <p class="font-light text-sm">8,525 posts</p>
-                            </li>
-                            <li><span class="material-symbols-outlined">
-                                more_horiz
-                                </span></li>
-                            </ul>
-                        </li>
-                        <li><ul class="flex justify-between items-center ">
-                            <li class="flex flex-col space-y-1"> 
-                                <p class="font-light text-xs">Politics · Trending</p>
-                                <h2 class="font-bold">#RaggingByProfessorsInAU</h2>
-                                <p class="font-light text-sm">29.1k posts</p>
-                            </li>
-                            <li><span class="material-symbols-outlined">
-                                more_horiz
-                                </span></li>
-                            </ul>
-                        </li>
-                        <li><ul class="flex justify-between items-center ">
-                            <li class="flex flex-col space-y-1"> 
-                                <p class="font-light text-xs">Sports · Trend </p>
-                                <h2 class="font-bold"> #INDvsENGTest</h2>
-                                <p class="font-light text-sm">18.7K posts</p>
-                            </li>
-                            <li><span class="material-symbols-outlined">
-                                more_horiz
-                                </span></li>
-                            </ul>
-                        </li>
-                        <li><ul class="flex justify-between items-center ">
-                            <li class="flex flex-col space-y-1"> 
-                                <p class="font-light text-xs">Sports · Trending</p>
-                                <h2 class="font-bold">Yorker</h2>
-                                <p class="font-light text-sm">257k posts</p>
-                            </li>
-                            <li><span class="material-symbols-outlined">
-                                more_horiz
-                                </span></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="whats  flex gap-3 flex-col py-4 px-4 rounded-3xl bg-gray-900">
-                <h3 class="font-extrabold text-xl">Who To Follow</h3>
-                <ul class="space-y-5">
-                    <li><div class="followers flex flex-row justify-between">
-                        <button class="bg-white text-black font-extrabold px-5 rounded-full">P</button>
-                    <div class="flex flex-col">
-                        <h4 class="font-extrabold">PMO India</h4>
-                        <p class="font-light">@PMOindia</p>
-                    </div>
-                    <button class="bg-white text-black font-bold rounded-3xl px-4">Follow</button>
-                    </div></li>
-                    <li><div class="followers flex flex-row justify-between">
-                        <button class="bg-white text-black font-extrabold px-5 rounded-full">Q</button>
-                    <div class="flex flex-col">
-                        <h4 class="font-extrabold">Play Station</h4>
-                        <p class="font-light">@Playstation</p>
-                    </div>
-                    <button class="bg-white text-black font-bold rounded-3xl px-4">Follow</button>
-                    </div></li>
-                    <li><div class="followers flex flex-row justify-between">
-                        <button class="bg-white text-black font-extrabold px-5 rounded-full">R</button>
-                    <div class="flex flex-col">
-                        <h4 class="font-extrabold">SportCenter</h4>
-                        <p class="font-light">@SportsCenter</p>
-                    </div>
-                    <button class="bg-white text-black font-bold rounded-3xl px-4">Follow</button>
-                    </div></li>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <span class="material-symbols-outlined">
+                      notifications
+                    </span>
+                  </li>
+                  <li class="hidden md:block">Notifications</li>
                 </ul>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li><span class="material-symbols-outlined"> mail </span></li>
+                  <li class="hidden md:block">Messages</li>
+                </ul>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <span class="material-symbols-outlined"> edit_square </span>
+                  </li>
+                  <li class="hidden md:block">Grok</li>
+                </ul>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <span class="material-symbols-outlined"> list_alt </span>
+                  </li>
+                  <li class="hidden md:block">Lists</li>
+                </ul>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <span class="material-symbols-outlined"> group </span>
+                  </li>
+                  <li class="hidden md:block">Communities</li>
+                </ul>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <svg
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      class="invert w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+                    >
+                      <g>
+                        <path
+                          d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </li>
+                  <li class="hidden md:block">Premium</li>
+                </ul>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <span class="material-symbols-outlined"> person </span>
+                  </li>
+                  <li class="hidden md:block">Profile</li>
+                </ul>
+              </button>
+            </li>
+            <li class="hover:bg-[#1d1f23] hover:rounded-2xl">
+              <button>
+                <ul class="flex space-x-4 hover:rounded-2xl px-3 py-2">
+                  <li>
+                    <span class="material-symbols-outlined"> more_horiz </span>
+                  </li>
+                  <li class="hidden md:block">More</li>
+                </ul>
+              </button>
+            </li>
+            <li>
+              <button
+                class="block md:hidden bg-sky-500 text-black font-extrabold px-3.5 py-3 rounded-full"
+              >
+                <span class="text-white material-symbols-outlined">
+                  data_saver_on
+                </span>
+              </button>
+            </li>
+            <li>
+              <button
+                class="bg-sky-500 font-bold hidden md:block w-56 lg:w-64 xl:w-72 h-12 rounded-3xl px-6"
+              >
+                Post
+              </button>
+            </li>
+            <li>
+              <ul class="flex space-x-4 justify-items-center items-center my-3">
+                <li>
+                  <button
+                    class="bg-white text-black font-extrabold px-5 py-3 rounded-full"
+                  >
+                    D
+                  </button>
+                </li>
+                <li>
+                  <ul
+                    class="hidden md:block flex space-x-4 px-3 py-2 flex-col space-y-3"
+                  >
+                    <li class="font-medium">Debojyoti Saha</li>
+                    <li class="font-light">@Debojyoti123</li>
+                  </ul>
+                </li>
+                <li class="hidden md:block">
+                  <span class="material-symbols-outlined"> more_horiz </span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section
+        class="align-middle w-[95%] md:w-[50%] border-[0.5px] border-gray-800"
+      >
+        <div
+          class="top bg-[#000000] sticky top-0 z-10 flex items-center border-[0.5px] border-gray-700"
+        >
+          <div
+            class="foryou bg-[#000000] items-center font-bold text-lg flex justify-center w-1/2 hover:bg-[#1d1d1d] hover:rounded hover:h-10"
+          >
+            For You
+          </div>
+          <div
+            class="following bg-[#000000] items-center font-bold text-lg flex justify-center w-1/2 hover:bg-[#1d1d1d] hover:rounded hover:h-10"
+          >
+            Following
+          </div>
+          <div class="settings mt-4 mr-4 items-center">
+            <span class="material-symbols-outlined"> settings </span>
+          </div>
+        </div>
 
+        <div class="happening border-[0.5px] border-gray-800">
+          <ul class="m-2 flex flex-col gap-3">
+            <li>
+              <ul class="m-2 flex gap-4 items-center">
+                <li>
+                  <button
+                    class="bg-[#5c6bc0] text-white font-extrabold px-5 py-3 rounded-full"
+                  >
+                    D
+                  </button>
+                </li>
+                <li>
+                  <input
+                    class="bg-black text-white outline-none w-72"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="What is happening?!"
+                  />
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul
+                class="flex items-center justify-start px-20 gap-4 text-sky-600 cursor-pointer"
+              >
+                <li><span class="material-symbols-outlined"> public </span></li>
+                <li>Anyone Can reply...</li>
+              </ul>
+            </li>
+            <hr class="mx-20" />
+            <li>
+              <ul class="flex justify-around">
+                <li>
+                  <ul class="flex gap-2 my-2 text-sky-600 hover:cursor-pointer">
+                    <li>
+                      <span class="material-symbols-outlined"> mms </span>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined"> gif_box </span>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined"> ballot </span>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined"> mood </span>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined">
+                        location_on
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <button class="bg-sky-500 w-20 h-10 rounded-3xl">Post</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="middle border-[0.5px] border-gray-800">
+          <p
+            class="flex justify-center items-center my-4 text-sky-700 cursor-pointer"
+          >
+            Show 35 Posts
+          </p>
+        </div>
+        <div class="all_post">
+          <div
+            class="post hover:bg-[#141518] flex p-4 border-[0.5px] border-gray-800"
+          >
+            <div class="img pt-4">
+              <img
+                class="w-12 rounded-full"
+                src="https://pbs.twimg.com/profile_images/1612788418010042369/9wIHyK2z_bigger.jpg"
+                alt=""
+              />
             </div>
-        </section>
+            <div class="content">
+              <ul class="flex justify-between m-3 items-center w-96">
+                <li>
+                  <ul class="flex flex-col">
+                    <li>
+                      <ul class="flex gap-2">
+                        <li class="font-bold hover:underline">
+                          Troll Football
+                        </li>
+                        <li class="font-light">@TrollFootball·14h</li>
+                      </ul>
+                    </li>
+                    <li>Elvis Presley’s last performance</li>
+                  </ul>
+                </li>
+                <li>
+                  <span class="material-symbols-outlined"> more_horiz </span>
+                </li>
+              </ul>
+              <img
+                class="rounded-lg h-[200px] w-[230px] sm:h-[300px] sm:w-[320px] md:h-[400px] md:w-[430px] xl:h-[507px] xl:w-[507px]"
+                src="https://pbs.twimg.com/media/GG8mzvebIAAf9qe?format=jpg&name=small"
+                alt=""
+              />
+              <div class="bottom-post">
+                <ul class="flex justify-between my-4">
+                  <li class="flex cursor-pointer hover:text-blue-400 gap-1">
+                    <span class="material-symbols-outlined"> add_comment </span
+                    ><span>923</span>
+                  </li>
+                  <li class="flex cursor-pointer hover:text-green-400 gap-1">
+                    <span class="material-symbols-outlined"> cycle </span
+                    ><span>7.1k</span>
+                  </li>
+                  <li class="flex cursor-pointer hover:text-red-400 gap-1">
+                    <span class="material-symbols-outlined"> favorite </span
+                    ><span>78K</span>
+                  </li>
+                  <li class="flex cursor-pointer hover:text-blue-400 gap-1">
+                    <span class="material-symbols-outlined">
+                      planner_review </span
+                    ><span>5.9M</span>
+                  </li>
+                  <li>
+                    <ul class="flex">
+                      <li class="cursor-pointer hover:text-blue-400 gap-1">
+                        <span class="material-symbols-outlined">
+                          bookmark
+                        </span>
+                      </li>
+                      <li class="cursor-pointer hover:text-blue-400 gap-1">
+                        <span class="material-symbols-outlined">
+                          download
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="post hover:bg-[#141518] flex p-4 border-[0.5px] border-gray-800"
+          >
+            <div class="img pt-4">
+              <img
+                class="w-12 rounded-full"
+                src="https://pbs.twimg.com/profile_images/1112323410837815296/wxhDfc5D_bigger.jpg"
+                alt=""
+              />
+            </div>
+            <div class="content">
+              <ul class="flex justify-between m-3 items-center w-96">
+                <li>
+                  <ul class="flex flex-col">
+                    <li>
+                      <ul class="flex gap-2">
+                        <li class="font-bold hover:underline">
+                          Out Of Context Football
+                        </li>
+                        <li class="font-light">@nocontextfooty.Feb 22</li>
+                      </ul>
+                    </li>
+                    <li>Out Of Context Football</li>
+                  </ul>
+                </li>
+                <li>
+                  <span class="material-symbols-outlined"> more_horiz </span>
+                </li>
+              </ul>
+              <img
+                class="rounded-lg h-[230px] w-[230px] md:h-[450px] md:w-[430px] xl:h-[607px] xl:w-[507px]"
+                src="https://pbs.twimg.com/media/GG8SLKHXgAAoWmf?format=jpg&name=small"
+                alt=""
+              />
+              <div class="bottom-post">
+                <ul class="flex justify-between my-4">
+                  <li class="flex cursor-pointer hover:text-blue-400 gap-1">
+                    <span class="material-symbols-outlined"> add_comment </span
+                    ><span>923</span>
+                  </li>
+                  <li class="flex cursor-pointer hover:text-green-400 gap-1">
+                    <span class="material-symbols-outlined"> cycle </span
+                    ><span>7.1k</span>
+                  </li>
+                  <li class="flex cursor-pointer hover:text-red-400 gap-1">
+                    <span class="material-symbols-outlined"> favorite </span
+                    ><span>78K</span>
+                  </li>
+                  <li class="flex cursor-pointer hover:text-blue-400 gap-1">
+                    <span class="material-symbols-outlined">
+                      planner_review </span
+                    ><span>5.9M</span>
+                  </li>
+                  <li>
+                    <ul class="flex">
+                      <li class="cursor-pointer hover:text-blue-400 gap-1">
+                        <span class="material-symbols-outlined">
+                          bookmark
+                        </span>
+                      </li>
+                      <li class="cursor-pointer hover:text-blue-400 gap-1">
+                        <span class="material-symbols-outlined">
+                          download
+                        </span>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="hidden sm:block right m-14 flex flex-col w-[30%] gap-5 my-2 mx-3"
+      >
+        <div
+          class="search z-10 sticky top-[0vh] flex gap-3 rounded-full bg-[#16181c] px-2 py-3 w-9/10"
+        >
+          <span class="material-symbols-outlined">search </span>
+          <input type="text" class="bg-[#16181c] w-1/3" placeholder="Search" />
+        </div>
+        <div
+          class="right_box sticky top-[10vh] overflow-y-scroll scrollbar-hide flex flex-col gap-4 my-2 mx-3 h-[1200px]"
+        >
+          <div
+            class="flex gap-3 flex-col premium py-4 px-4 rounded-3xl bg-[#16181c]"
+          >
+            <h3 class="font-extrabold text-xl">Subscribe To Premium</h3>
+            <p class="">
+              Subscribe to unlock new features and if eligible, receive a share
+              of ads revenue.
+            </p>
+            <button class="px-3 py-3 bg-[#1d9bf0] w-24 rounded-full">
+              Subscribe
+            </button>
+          </div>
+          <div
+            class="whats flex gap-3 flex-col py-4 px-4 rounded-3xl bg-[#16181c]"
+          >
+            <h3 class="font-extrabold text-xl">What's Happening</h3>
+            <div class="flex flex-col">
+              <ul class="flex flex-col space-y-5">
+                <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                  <ul class="flex justify-between items-center">
+                    <li class="flex flex-col space-y-0">
+                      <p class="font-light text-xs">Tending in India</p>
+                      <h2 class="font-bold">#PoonamPandey</h2>
+                      <p class="font-light text-sm">20.1k posts</p>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined">
+                        more_horiz
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                  <ul class="flex justify-between items-center">
+                    <li class="flex flex-col space-y-1">
+                      <p class="font-light text-xs">Entertainment · Trending</p>
+                      <h2 class="font-bold">#BoycottBollywood</h2>
+                      <p class="font-light text-sm">8,525 posts</p>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined">
+                        more_horiz
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                  <ul class="flex justify-between items-center">
+                    <li class="flex flex-col space-y-1">
+                      <p class="font-light text-xs">Politics · Trending</p>
+                      <h2 class="font-bold">#RaggingByProfessorsInAU</h2>
+                      <p class="font-light text-sm">29.1k posts</p>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined">
+                        more_horiz
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                  <ul class="flex justify-between items-center">
+                    <li class="flex flex-col space-y-1">
+                      <p class="font-light text-xs">Sports · Trend</p>
+                      <h2 class="font-bold">#INDvsENGTest</h2>
+                      <p class="font-light text-sm">18.7K posts</p>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined">
+                        more_horiz
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                  <ul class="flex justify-between items-center">
+                    <li class="flex flex-col space-y-1">
+                      <p class="font-light text-xs">Sports · Trending</p>
+                      <h2 class="font-bold">Yorker</h2>
+                      <p class="font-light text-sm">257k posts</p>
+                    </li>
+                    <li>
+                      <span class="material-symbols-outlined">
+                        more_horiz
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <span class="mt-3 text-[#1d9bf0]">See More</span>
+            </div>
+          </div>
+          <div
+            class="whats flex gap-3 flex-col py-4 px-4 rounded-3xl bg-[#16181c]"
+          >
+            <h3 class="font-extrabold text-xl">Who To Follow</h3>
+            <ul class="space-y-5">
+              <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                <div class="followers flex flex-row justify-between">
+                  <button
+                    class="bg-white text-black font-extrabold px-5 rounded-full"
+                  >
+                    P
+                  </button>
+                  <div class="flex flex-col">
+                    <h4 class="font-extrabold">PMO India</h4>
+                    <p class="font-light">@PMOindia</p>
+                  </div>
+                  <button
+                    class="bg-white text-black font-bold rounded-3xl px-4"
+                  >
+                    Follow
+                  </button>
+                </div>
+              </li>
+              <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                <div class="followers flex flex-row justify-between">
+                  <button
+                    class="bg-white text-black font-extrabold px-5 rounded-full"
+                  >
+                    Q
+                  </button>
+                  <div class="flex flex-col">
+                    <h4 class="font-extrabold">Play Station</h4>
+                    <p class="font-light">@Playstation</p>
+                  </div>
+                  <button
+                    class="bg-white text-black font-bold rounded-3xl px-4"
+                  >
+                    Follow
+                  </button>
+                </div>
+              </li>
+              <li class="hover:bg-[#1b1d22] hover:rounded-xl">
+                <div class="followers flex flex-row justify-between">
+                  <button
+                    class="bg-white text-black font-extrabold px-5 rounded-full"
+                  >
+                    R
+                  </button>
+                  <div class="flex flex-col">
+                    <h4 class="font-extrabold">SportCenter</h4>
+                    <p class="font-light">@SportsCenter</p>
+                  </div>
+                  <button
+                    class="bg-white text-black font-bold rounded-3xl px-4"
+                  >
+                    Follow
+                  </button>
+                </div>
+              </li>
+            </ul>
+            <span class="text-[#1d9bf0]">See More</span>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
